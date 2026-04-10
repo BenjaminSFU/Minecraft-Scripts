@@ -1,0 +1,8 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("black_sack") != true
+    @var search_holding.append("black_sack")
+@fi
+@delay 10s
+
+# https://paste.minr.org/olotuquwon

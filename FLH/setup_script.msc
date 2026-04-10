@@ -1,0 +1,22 @@
+@bypass /namespace define flh_ns
+@bypass /namespace define flh_ss
+@bypass /function define flh_ns tp_player(Block startblock, Block endblock)
+@bypass /variable define flh_ns relative Int offsetx
+@bypass /variable define flh_ns relative Int offsety
+@bypass /variable define flh_ns relative Int offsetz
+@bypass /variable define flh_ns relative Player player
+@bypass /function define flh_ss Block[] get_placerange(Block bottom, Block top)
+@bypass /function define flh_ss Int absval(Int num)
+@bypass /variable define flh_ss relative Int offsetx
+@bypass /variable define flh_ss relative Int offsety
+@bypass /variable define flh_ss relative Int offsetz
+@bypass /variable define flh_ss relative Block[] placelist
+@bypass /variable define flh_ss relative Block working_block
+@bypass /variable define flh_ss relative Int[] offsetlist
+@bypass /function define flh_ss Int absval(Int num)
+@bypass /variable define flh_ss relative Boolean isNeg
+@bypass /variable define flh_ss relative Int xrange
+@bypass /variable define flh_ss relative Int zrange
+@bypass /s i f flh_ns tp_player(Block startblock, Block endblock) https://paste.minr.org/tekizoyule.coffeescript
+@bypass /s i f flh_ss get_placerange(Block bottom, Block top) https://paste.minr.org/oworowinip.rb
+@bypass /s i f flh_ss absval(Int num) https://paste.minr.org/ipovexicup.coffeescript

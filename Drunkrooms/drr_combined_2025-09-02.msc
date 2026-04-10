@@ -1,0 +1,116 @@
+@bypass /namespace define N700M_maptools
+@bypass /variable define N700M_maptools relative String working_block
+@bypass /function define N700M_maptools keep_closed(Block block)
+@bypass /variable define N700M_maptools relative String[] wb_csplit
+@bypass /variable define N700M_maptools relative String[] facing_esplit
+@bypass /variable define N700M_maptools relative String facing
+@bypass /variable define N700M_maptools relative Int x
+@bypass /variable define N700M_maptools relative Int y
+@bypass /variable define N700M_maptools relative Int z
+@bypass /variable define N700M_maptools relative String blocktype
+@bypass /variable define N700M_maptools relative Int flength
+@bypass /variable define N700M_maptools relative String half
+@bypass /variable define N700M_maptools relative String[] half_esplit
+@bypass /variable define N700M_maptools relative Int hlength
+@bypass /function define N700M_maptools keep_open(Block block)
+@bypass /s i f N700M_maptools keep_closed(Block block) https://paste.minr.org/obinewutat.pl
+@bypass /s i f N700M_maptools keep_open(Block block) https://paste.minr.org/umaqoxoheg.pl
+
+@bypass /s i i -11819 199 -9581 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11814 201 -9572 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11813 207 -9576 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11813 208 -9576 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11812 207 -9576 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11812 208 -9576 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 207 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11814 207 -9578 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11814 207 -9582 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 207 -9584 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 208 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11814 208 -9578 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11814 208 -9582 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 208 -9584 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11829 203 -9572 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11830 224 -9568 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11830 224 -9567 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11830 225 -9568 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11830 225 -9567 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11819 231 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 228 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 228 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 228 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 228 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 224 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 224 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 224 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 224 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 229 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 229 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 229 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11821 229 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 225 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 225 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 225 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11816 225 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 224 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 224 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 224 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 224 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 228 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 228 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 228 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 228 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 225 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 225 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 225 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11811 225 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 229 -9580 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 229 -9575 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 229 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11806 229 -9565 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11807 225 -9590 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11807 226 -9590 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11801 225 -9582 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11795 229 -9587 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11795 230 -9587 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11792 226 -9581 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11801 206 -9553 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11801 207 -9553 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11837 225 -9553 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11837 226 -9553 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11840 231 -9571 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11840 231 -9570 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11840 232 -9571 Theta https://paste.minr.org/lonecibovi.rb
+@bypass /s i i -11840 232 -9570 Theta https://paste.minr.org/lonecibovi.rb
+
+@bypass /s i i -11818 201 -9574 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11818 201 -9572 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11818 201 -9570 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11821 201 -9570 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11812 202 -9571 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11811 202 -9570 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11813 203 -9574 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11813 202 -9574 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11813 202 -9573 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11812 206 -9574 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11815 207 -9571 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11815 207 -9572 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11811 207 -9571 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11811 207 -9572 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11820 191 -9563 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11820 192 -9563 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11823 192 -9563 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11823 191 -9563 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11834 224 -9584 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11836 224 -9577 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11827 224 -9570 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11826 224 -9570 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11827 224 -9565 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11826 224 -9565 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11782 219 -9600 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11782 220 -9600 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11783 219 -9586 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11783 220 -9586 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11778 220 -9592 Theta https://paste.minr.org/odebirijen.rb
+@bypass /s i i -11778 220 -9594 Theta https://paste.minr.org/odebirijen.rb
+

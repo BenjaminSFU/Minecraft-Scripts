@@ -1,0 +1,4 @@
+@if player.countItem("TRIAL_KEY") > 0
+    @var flh_ns::tp_player(Block(2986, 69, 6928, "Zero"), Block(2986, 69, 6924, "Zero"))
+@fi
+# https://paste.minr.org/aroguniruk

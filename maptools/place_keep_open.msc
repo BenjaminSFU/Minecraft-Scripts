@@ -1,0 +1,4 @@
+@delay 3s
+@var N700M_maptools::keep_open(block)
+
+https://paste.minr.org/odebirijen.rb

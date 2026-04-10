@@ -1,0 +1,5 @@
+@using hoyu_scripts
+@if player.countItem("TRIAL_KEY") > 0
+    @var flh_ns::tp_player(Block(-13265, 111, -9824, "Theta"), Block(-13265, 111, -9820, "Theta"))
+@fi
+# https://paste.minr.org/uverajuziy

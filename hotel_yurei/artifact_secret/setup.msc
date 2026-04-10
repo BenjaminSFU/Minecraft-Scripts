@@ -1,0 +1,15 @@
+@using hoyu_scripts
+# var setup
+@bypass /var define hoyu_scripts relative Boolean carrying_dog = true
+@bypass /var define hoyu_scripts relative Int dialogue_num = 0
+# Respawn script
+@bypass /s i w -13396 62 -9851 Theta https://paste.minr.org/avuwuxexax
+# Keyhole script
+@bypass /s i i -13265 55 -9797 Theta https://paste.minr.org/ixicubizov
+# NPC Script
+@bypass /s i e 072762d9-d226-4c74-9864-f4a420c0e6b6 https://paste.minr.org/noberuvadi
+# legendary artifact script
+@bypass /s i e 88af0207-0b4f-4f1d-881d-590f90654062 https://paste.minr.org/xacapokuba
+# dog depositor script
+@bypass /s i i -13260 112 -9813 Theta https://paste.minr.org/aqarigabiz
+# https://paste.minr.org/ejugaruxic

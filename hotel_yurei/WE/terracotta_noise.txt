@@ -1,0 +1,2 @@
+//g pink_terracotta query(x, y, z, 159, 14)&&perlin(100, x*3, y*4, z*3, 0.75, 3, 1)<0.25
+//g magenta_terracotta query(x, y, z, 159, 14)&&perlin(101, x*3, y*4, z*3, 0.75, 3, 1)<0.01

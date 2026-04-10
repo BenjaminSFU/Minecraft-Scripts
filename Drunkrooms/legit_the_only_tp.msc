@@ -1,0 +1,3 @@
+@var flh_ns::player = player
+@var flh_ns::tp_player(Block(-11826, 190, -9542, "Theta"), Block(-11826, 202, -9542, "Theta"))
+https://paste.minr.org/yusucamufe.php

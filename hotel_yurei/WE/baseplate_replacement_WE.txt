@@ -1,0 +1,4 @@
+pos1 -12328,36,-9776 pos2 -13372,46,-9909 30%stone,20%cobblestone,35%tuff,15%acacia_wood
+pos1 -12328,47,-9776 pos2 -13372,59,-9909 40%stone,20%cobblestone,30%tuff,10%acacia_wood
+pos1 -12328,60,-9776 pos2 -13372,68,-9909 50%stone,20%cobblestone,25%tuff,5%acacia_wood
+pos1 -12328,69,-9776 pos2 -13372,77,-9909 60%stone,15%cobblestone,20%tuff,5%acacia_wood

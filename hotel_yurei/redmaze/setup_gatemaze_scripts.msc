@@ -1,0 +1,17 @@
+@bypass /var set hoyu_scripts redmaze_key = Int[]
+@bypass /var set hoyu_scripts placed_gates = Block[]
+@bypass /s i f hoyu_scripts place_gates() https://paste.minr.org/uyixaxegun
+@bypass /s i f hoyu_scripts place_gates_2() https://paste.minr.org/ecuciweteh
+@using hoyu_scripts
+@player Waiting 10s to not overload rate limit
+@delay 10s
+@var place_gates()
+@slow
+@delay 17s
+@player Placed first batch. Waiting 30 sec before second batch.
+@delay 30s
+@var place_gates_2()
+@delay 15s
+@player Placed second batch
+
+# https://paste.minr.org/sajuzuzixa

@@ -1,0 +1,8 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("stone_egg") != true
+    @var search_holding.append("stone_egg")
+@fi
+@delay 10s
+
+# https://paste.minr.org/uyelapekij

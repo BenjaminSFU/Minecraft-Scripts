@@ -1,0 +1,15 @@
+@for Block i in flh_ss::get_placerange(Block(#lowerx#, #lowery#, #lowerz#, "Theta"), Block(#upperx#, #uppery#, #upperz#, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta #script_url#
+@done
+@var centre_block = Block(#centrex#, #centrey#, #centrez#, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp

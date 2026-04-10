@@ -1,0 +1,9 @@
+# Receptionist
+@bypass /s i e abe48153-7d75-4831-9cb3-aa5df2e69bef https://paste.minr.org/uzurowohex
+# Respawn Script
+@bypass /s i w -13396 62 -9851 Theta https://paste.minr.org/dazafozoda
+# Reseting Search Progress (Fuck you speedrunners do it all over again)
+@for Block i in flh_ss::get_placerange(Block(-13276, 30, -9815, "Theta"), Block(-13276, 33, -9813, "Theta"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/ajecodenor
+@done
+# https://paste.minr.org/codudodiqa

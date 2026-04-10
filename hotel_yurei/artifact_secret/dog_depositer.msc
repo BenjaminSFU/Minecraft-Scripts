@@ -1,0 +1,16 @@
+@cooldown 10s
+@using hoyu_scripts
+@if carrying_dog == true
+    @player &eYou deposit all the dogs which you're carrying
+    @delay 2s
+    @player &e...
+    @delay 4s
+    @player &eWhat do you mean you didn't think you were carrying any?
+    @var carrying_dog = false
+    @delay 35s
+    @player &eYou feel the return of a furry presence to your possesion...
+    @var carrying_dog = true
+@else
+    @player &eBut you weren't carrying any dogs to begin with
+@fi
+# https://paste.minr.org/aqarigabiz

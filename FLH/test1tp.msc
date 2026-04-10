@@ -1,0 +1,2 @@
+@using flh_ns
+@var tp_player(Block(3008, 69, 6955, "Zero"), Block(3016, 69, 6955, "Zero"))

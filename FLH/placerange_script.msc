@@ -1,0 +1,50 @@
+@using flh_ss
+@var placelist = Block[]
+@if placelist.length() != 0
+	@var placelist.clear()
+@fi
+@var offsetx = top.getX() - bottom.getX()
+@var offsety = top.getY() - bottom.getY()
+@var offsetz = top.getZ() - bottom.getZ()
+@for Int y in list::range(0, (offsety + 1))
+	@if offsetx == 0
+		@if offsetz < 0
+			@define Int zrange
+			@var zrange = absval(offsetz) + 1
+			@var offsetlist = list::range(0, zrange)
+			@var isNeg = Boolean("True")
+		@else
+			@var offsetlist = list::range(0, (offsetz + 1))
+			@var isNeg = Boolean("False")
+		@fi
+		@for Int i in offsetlist
+			@if isNeg == Boolean("True")
+				@var i = i * -1
+			@fi
+			@var working_block = Block(bottom.getX(), (bottom.getY() + y), (bottom.getZ() + i), "Theta")
+			@var placelist.append(working_block)
+		@done
+	@elseif offsetz == 0
+		@if offsetx < 0
+			@define Int xrange
+			@var xrange = absval(offsetx) + 1
+			@var offsetlist = list::range(0, xrange)
+			@var isNeg = Boolean("True")
+		@else
+			@var offsetlist = list::range(0, (offsetx + 1))
+			@var isNeg = Boolean("False")
+		@fi
+		@for Int i in offsetlist
+			@if isNeg == Boolean("True")
+				@var i = i * -1
+			@fi
+			@var working_block = Block((bottom.getX() + i), (bottom.getY() + y), bottom.getZ(), "Theta")
+			@var placelist.append(working_block)
+		@done
+	@else
+		@player couldn't tell whether offsetx or offsetz was equal to zero
+	@fi
+@done
+@return placelist
+
+# https://paste.minr.org/quxikoyobe

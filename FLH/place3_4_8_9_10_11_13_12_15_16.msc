@@ -1,0 +1,34 @@
+@using flh_ss
+@player Starting Script
+@for Block i in get_placerange(Block(-12418, 284, -9681, "Theta"), Block(-12418, 292, -9684, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/napakibaza.coffeescript
+@done
+@for Block i in get_placerange(Block(-12466, 284, -9681, "Theta"), Block(-12466, 292, -9684, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/ofikejipaw.coffeescript
+@done
+@for Block i in get_placerange(Block(-12301, 284, -9816, "Theta"), Block(-12304, 292, -9816, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/gehawadevi.coffeescript
+@done
+@for Block i in get_placerange(Block(-12526, 284, -9762, "Theta"), Block(-12529, 292, -9762, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/oratuzufof.coffeescript
+@done
+@for Block i in get_placerange(Block(-12412, 284, -9822, "Theta"), Block(-12415, 292, -9822, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/dedugoludo.coffeescript
+@done
+@for Block i in get_placerange(Block(-12502, 284, -9702, "Theta"), Block(-12505, 292, -9702, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/itoreceget.coffeescript
+@done
+@for Block i in get_placerange(Block(-12289, 284, -9708, "Theta"), Block(-12292, 292, -9708, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/uhozibehef.coffeescript
+@done
+@for Block i in get_placerange(Block(-12514, 284, -9804, "Theta"), Block(-12517, 292, -9804, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/wogisokisi.coffeescript
+@done
+@for Block i in get_placerange(Block(-12283, 284, -9834, "Theta"), Block(-12283, 292, -9837, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/buwoheteho.coffeescript
+@done
+@for Block i in get_placerange(Block(-12541, 284, -9702, "Theta"), Block(-12541, 292, -9705, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/anisaxetij.coffeescript
+@done
+
+https://paste.minr.org/ulukofiwuq.coffeescript

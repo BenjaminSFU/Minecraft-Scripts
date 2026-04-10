@@ -1,0 +1,311 @@
+@define Block centre_block
+@define Int[] keytemp
+@fast
+
+# Gate 0
+
+@for Block i in flh_ss::get_placerange(Block(-13338, 54, -9817, "Theta"), Block(-13336, 57, -9817, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/zixifuwico.coffeescript
+@done
+@var centre_block = Block(-13337, 54, -9817, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 1
+
+@for Block i in flh_ss::get_placerange(Block(-13331, 54, -9812, "Theta"), Block(-13331, 57, -9810, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/kihuxokulo
+@done
+@var centre_block = Block(-13331, 54, -9811, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 2
+
+@for Block i in flh_ss::get_placerange(Block(-13326, 54, -9817, "Theta"), Block(-13324, 57, -9817, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/ugipiyogij
+@done
+@var centre_block = Block(-13325, 54, -9817, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 3
+
+@for Block i in flh_ss::get_placerange(Block(-13326, 54, -9829, "Theta"), Block(-13324, 57, -9829, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/emajucocoq
+@done
+@var centre_block = Block(-13325, 54, -9829, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 4
+
+@for Block i in flh_ss::get_placerange(Block(-13326, 54, -9841, "Theta"), Block(-13324, 57, -9841, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/fijanufeqe
+@done
+@var centre_block = Block(-13325, 54, -9841, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 5
+
+@for Block i in flh_ss::get_placerange(Block(-13331, 54, -9848, "Theta"), Block(-13331, 57, -9846, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/onicatotur
+@done
+@var centre_block = Block(-13331, 54, -9847, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 6
+
+@for Block i in flh_ss::get_placerange(Block(-13338, 54, -9841, "Theta"), Block(-13336, 57, -9841, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/pawavulona
+@done
+@var centre_block = Block(-13337, 54, -9841, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 7
+
+@for Block i in flh_ss::get_placerange(Block(-13343, 54, -9836, "Theta"), Block(-13343, 57, -9834, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/fehoxigedu
+@done
+@var centre_block = Block(-13343, 54, -9835, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 8
+
+@for Block i in flh_ss::get_placerange(Block(-13355, 54, -9836, "Theta"), Block(-13355, 57, -9834, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/powosezoyo
+@done
+@var centre_block = Block(-13355, 54, -9835, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 8
+
+@for Block i in flh_ss::get_placerange(Block(-13355, 66, -9836, "Theta"), Block(-13355, 69, -9834, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/powosezoyo
+@done
+@var centre_block = Block(-13355, 66, -9835, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 9
+
+@for Block i in flh_ss::get_placerange(Block(-13350, 66, -9829, "Theta"), Block(-13348, 69, -9829, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/ibequjudey
+@done
+@var centre_block = Block(-13349, 66, -9829, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 10
+
+@for Block i in flh_ss::get_placerange(Block(-13355, 66, -9824, "Theta"), Block(-13355, 69, -9822, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/nazuwuxatu
+@done
+@var centre_block = Block(-13355, 66, -9823, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 10
+
+@for Block i in flh_ss::get_placerange(Block(-13355, 54, -9824, "Theta"), Block(-13355, 57, -9822, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/nazuwuxatu
+@done
+@var centre_block = Block(-13355, 54, -9823, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 11
+
+@for Block i in flh_ss::get_placerange(Block(-13350, 54, -9817, "Theta"), Block(-13348, 57, -9817, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/ogiwimuxay
+@done
+@var centre_block = Block(-13349, 54, -9817, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 12
+
+@for Block i in flh_ss::get_placerange(Block(-13355, 54, -9812, "Theta"), Block(-13355, 57, -9810, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/lajulopafi
+@done
+@var centre_block = Block(-13355, 54, -9811, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 12
+
+@for Block i in flh_ss::get_placerange(Block(-13355, 66, -9812, "Theta"), Block(-13355, 69, -9810, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/lajulopafi
+@done
+@var centre_block = Block(-13355, 66, -9811, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 13
+
+@for Block i in flh_ss::get_placerange(Block(-13343, 66, -9812, "Theta"), Block(-13343, 69, -9810, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/ozafimicej
+@done
+@var centre_block = Block(-13343, 66, -9811, "Theta")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# https://paste.minr.org/uyixaxegun

@@ -1,0 +1,9 @@
+@fast
+@if hoyu_scripts::search_holding.length() != 0
+    @player &eYou realized you've dropped the items you were holding upon death.
+@fi
+@var hoyu_scripts::search_holding = String[]
+@var flh_ns::player = player
+@var hoyu_scripts::gate_history = Int[]
+@var flh_ns::tp_player(Block(-13396, 62, -9851, "Theta"), Block(-13388, 61, -9851, "Theta"))
+# https://paste.minr.org/avuwuxexax

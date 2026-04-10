@@ -1,0 +1,4 @@
+@using flh_ss
+@if num < 0
+	@var num = num * -1
+@return num

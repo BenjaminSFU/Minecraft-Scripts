@@ -1,0 +1,4 @@
+@using hoyu_scripts
+@var gate_history.clear()
+
+# https://paste.minr.org/arutogopix.coffeescript

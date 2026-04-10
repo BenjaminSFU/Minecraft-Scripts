@@ -1,0 +1,20 @@
+@cooldown 60s
+@using hoyu_scripts
+@if carrying_dog == true && search_holding.contains("legendary_artifact") == false
+    @player &eYou tried to pick up the Legendary Artifact
+    @delay 1s
+    @player &e...
+    @delay 1s
+    @player &e...
+    @delay 1s
+    @player &eYou're carrying too many dogs.
+@elseif search_holding.contains("legendary_artifact") == true
+    @player &eWhy would you EVER want two of this thing
+@elseif search_holding.contains("legendary_artifact") != true && carrying_dog == false
+    @player &eYou pick up the Legendary Artifact
+    @delay 2s
+    @player &e...It's plastic. How disappointing.
+    @var search_holding.append("legendary_artifact")
+@fi
+# UUID: 88af0207-0b4f-4f1d-881d-590f90654062
+# script link: https://paste.minr.org/xacapokuba

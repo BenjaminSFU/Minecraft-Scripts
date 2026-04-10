@@ -1,0 +1,10 @@
+@using hoyu_scripts
+@fast
+@if gate_history.length() == 0
+	@var gate_history.append(0)
+@else
+	@var gate_history.clear()
+	@var gate_history.append(0)
+@fi
+
+# https://paste.minr.org/zixifuwico.coffeescript

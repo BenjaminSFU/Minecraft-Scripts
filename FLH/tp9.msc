@@ -1,0 +1,4 @@
+@using flh_ns
+@var tp_player(Block(-12526, 284, -9762, "Theta"), Block(-12301, 284, -9822, "Theta"))
+
+https://paste.minr.org/oratuzufof.coffeescript

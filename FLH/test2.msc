@@ -1,0 +1,6 @@
+@using flh_ss
+@player Starting Script
+@for Block i in get_placerange(Block(3016, 69, 6953, "Zero"), Block(3013, 77, 6953, "Zero"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/rajedixina.coffeescript
+	@player Placing tp_player at {{i.getX()}} {{i.getY()}} {{i.getZ()}}
+@done

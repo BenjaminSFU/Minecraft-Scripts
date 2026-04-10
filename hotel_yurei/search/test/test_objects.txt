@@ -1,0 +1,6 @@
+stone_egg: 2993 71 6942 Zero
+heavy_core: 2993 71 6943 Zero
+golden_frog: fc5c17d4-d5fd-4137-9af3-29465feb5289
+black_sack: 3a1cf08f-e05e-483c-97e3-dec0ff965e43
+coffin_sculpture: 2993 71 6946 Zero
+receptionist: 2993 71 6947 Zero

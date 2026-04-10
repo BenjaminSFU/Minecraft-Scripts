@@ -1,0 +1,32 @@
+@using N700M_maptools
+@fast
+@var working_block = block.string()
+@var wb_csplit = working_block.split(",")
+@for String i in wb_csplit
+	@if i.contains("facing=")
+		@var facing_esplit = i.split("=")
+		@var flength = facing_esplit.length()
+		@var flength = flength - 1
+		@var facing = facing_esplit[flength]
+	@elseif i.contains("half=")
+		@var half_esplit = i.split("=")
+		@var hlength = half_esplit.length()
+		@var hlength = hlength - 1
+		@var half = half_esplit[hlength]
+	@fi		
+@done
+@var x = block.getX()
+@var y = block.getY()
+@var z = block.getZ()
+@var blocktype = block.getBlockType()
+@var blocktype = blocktype.toLowerCase()
+@if half == "upper"
+	@var y = y - 1
+@fi
+@if blocktype.contains("trapdoor")
+	@bypass /setblock {{x}} {{y}} {{z}} {{blocktype}}[facing={{facing}},open=false,half={{half}}] replace
+@else
+	@bypass /setblock {{x}} {{y}} {{z}} {{blocktype}}[facing={{facing}},open=false] replace
+@fi
+
+https://paste.minr.org/zofavanomo.pl

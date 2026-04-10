@@ -1,0 +1,6 @@
+heavy_core: -13310 59 -9810 Theta
+coffin_sculpture: e899c8e8-47a9-4e75-ac82-7a8fc464f2b3
+golden_frog: -13275 69 -9861 Theta
+stone_egg: ca81f6ef-140b-4be3-8327-1c0a106b744b
+black_sack: -13335 56 -9861 Theta
+receptionist: abe48153-7d75-4831-9cb3-aa5df2e69bef

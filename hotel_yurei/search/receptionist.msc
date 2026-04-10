@@ -1,0 +1,109 @@
+@cooldown 20s
+@using hoyu_scripts
+@if talked_to_receptionist == false
+    @player &e...It's a statue. You turn to leave, but a hollow female voice begins to eminate from behind its stony visage.
+    @delay 3s
+    @player &7&lHello esteemed guest, and welcome to &r&4&lHotel Yurei!!
+    @delay 3s
+    @player &eThe statues eyes remain unblinking. A faint whirr is heard, before the voice continues.
+    @delay 3s
+    @player &7&lYou may find some objects of interest while exploring our premises. Please note that all such objects must be returned to the front desk. Compliance will be rewarded!
+    @delay 5s
+    @player &7&lPlease note that any occurances of death may lead to dropping the items which are being carried!
+    @var talked_to_receptionist = true
+@elseif talked_to_receptionist == true
+    @player &eYou approach the statue. There is a small delay accompanied by low clicks and a faint hiss, before the voice is heard from the statue.
+@fi
+@delay 3s
+@fast
+@if search_holding.contains("heavy_core") == true && found_heavy_core == false
+    @var found_heavy_core = true
+    @slow
+    @player &7&lThe object of interest, &r&d&lHeavy Core&r&7&l, has been desposited.
+    @delay 3s
+    @fast
+@fi
+@if search_holding.contains("coffin_sculpture") == true && found_coffin_sculpture == false
+    @var found_coffin_sculpture = true
+    @slow
+    @player &7&lThe object of interest, &r&8&lCoffins Stone Head&r&7&l, has been desposited.
+    @delay 3s
+    @fast
+@fi
+@if search_holding.contains("golden_frog") == true && found_golden_frog == false
+    @var found_golden_frog = true
+    @slow
+    @player &7&lThe object of interest, &r&6&lGolden Frog&r&7&l, has been desposited.
+    @delay 3s
+    @fast
+@fi
+@if search_holding.contains("stone_egg") == true && found_stone_egg == false
+    @var found_stone_egg = true
+    @slow
+    @player &7&lThe object of interest, &r&8&lStone Egg&r&7&l, has been desposited.
+    @delay 3s
+    @fast
+@fi
+@if search_holding.contains("black_sack") == true && found_black_sack == false
+    @var found_black_sack = true
+    @slow
+    @player &7&lThe object of interest, &r&#433623&lBlack Sack&r&7&l, has been desposited.
+    @delay 3s
+    @fast
+@fi
+@define String[] remaining = String[]
+@if found_heavy_core == false
+    @var remaining.append("a &r&d&lHeavy Core&r&7&l,")
+@fi
+@if found_coffin_sculpture == false
+    @var remaining.append("a &r&8&lCoffins Stone Head&r&7&l,")
+@fi
+@if found_golden_frog == false
+    @var remaining.append("a &r&6&lGolden Frog&r&7&l,")
+@fi
+@if found_stone_egg == false
+    @var remaining.append("a &r&8&lStony Egg&r&7&l,")
+@fi
+@if found_black_sack == false
+    @var remaining.append("a &r&#433623&lBlack Sack&r&7&l,")
+@fi
+@if remaining.length() == 0
+    @var remaining = String["none"]
+@fi
+@if remaining[0] != "none"
+    @var remaining.reverse()
+    @if remaining.length() > 1
+        @define String last = "and " + remaining[0]
+        @var remaining.remove(0)
+        @var remaining.reverse()
+        @var last = last.substring(0, (last.length() - 1))
+        @var remaining.append(last)
+        @define String remaining_string = ""
+        @for String s in remaining
+            @var remaining_string += "{{s}} "
+        @done
+        @var remaining_string = remaining_string.substring(0, (remaining_string.length()-1))
+        @slow
+        @player &7&lThe objects yet to be recieved are {{remaining_string}}.
+        @delay 6s
+    @elseif remaining.length() == 1
+        @slow
+        @define String remaining_string = remaining[0]
+        @var remaining_string = remaining_string.substring(0, (remaining_string.length()-1))
+        @player &7&lThe object yet to be recieved is {{remaining_string}}
+        @delay 4s
+    @fi
+@elseif remaining[0] == "none" && player.countItem("TRIAL_KEY") == 0
+    @slow
+    @player &7&lAll objects have been deposited. Thank you for your cooperation.
+    @delay 3s
+    @player &eGears can be heard spinning furiously within the statue. Shortly after, a key pops out.
+    @delay 3s
+    @var player.setItemInMainHand(Item("TRIAL_KEY", 1))
+@elseif remaining[0] == "none" && player.countItem("TRIAL_KEY") > 0
+    @slow
+    @player &7&lYou have already been rewarded! 
+    @delay 3s
+@fi
+@player &eThe statue falls to silence once again, all mechanisms seeming to have halted. It still hasn't moved, not even a little.
+# https://paste.minr.org/uzurowohex

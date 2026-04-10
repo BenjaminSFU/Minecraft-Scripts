@@ -1,0 +1,16 @@
+@using flh_ss
+# Gate messages
+@for Block i in get_placerange(Block(-13265, 111, -9818), Block(-13263, 111, -9818))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/tohihakope
+@done
+@for Block i in get_placerange(Block(-13265, 111, -9827), Block(-13263, 111, -9827))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/tohihakope
+@done
+# Gate teleports
+@for Block i in get_placerange(Block(-13265, 111, -9824), Block(-13263, 111, -9824))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/uverajuziy
+@done
+@for Block i in get_placerange(Block(-13265, 111, -9821), Block(-13263, 111, -9821))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/icicaqefod
+@done
+# https://paste.minr.org/seyezumaqu

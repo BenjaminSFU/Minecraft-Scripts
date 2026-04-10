@@ -1,0 +1,6 @@
+@using flh_ns
+@fast
+@var offsetx = endblock.getX() - startblock.getX()
+@var offsety = endblock.getY() - startblock.getY()
+@var offsetz = endblock.getZ() - startblock.getZ()
+@bypass /minecraft:tp {{player}} ~{{offsetx}} ~{{offsety}} ~{{offsetz}}

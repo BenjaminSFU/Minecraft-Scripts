@@ -1,0 +1,8 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("heavy_core") != true
+    @var search_holding.append("heavy_core")
+@fi
+@delay 10s
+
+# https://paste.minr.org/sawezuyemu

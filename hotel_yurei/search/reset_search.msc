@@ -1,0 +1,8 @@
+@using hoyu_scripts
+@var found_heavy_core = false
+@var found_coffin_sculpture = false
+@var found_black_sack = false
+@var found_stone_egg = false
+@var found_golden_frog = false
+@var talked_to_receptionist = false
+# https://paste.minr.org/ajecodenor

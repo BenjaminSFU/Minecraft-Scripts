@@ -1,0 +1,11 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("black_sack") != true
+    @player &eYou grab the sack. It's dense, and a the contents seem to have a sand-like consistency
+    @var search_holding.append("black_sack")
+@else
+    @player &eYou're already holding the sack, so there's no point in grabbing it again.
+@fi
+@delay 10s
+
+# https://paste.minr.org/xolijunife

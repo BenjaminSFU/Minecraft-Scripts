@@ -1,0 +1,10 @@
+@using flh_ss
+@player Starting Script
+@for Block i in get_placerange(Block(-12301, 284, -9816, "Theta"), Block(-12304, 292, -9816, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/gehawadevi.coffeescript
+@done
+@for Block i in get_placerange(Block(-12526, 284, -9762, "Theta"), Block(-12529, 292, -9762, "Theta"))
+	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/oratuzufof.coffeescript
+@done
+
+https://paste.minr.org/alegedujab.coffeescript

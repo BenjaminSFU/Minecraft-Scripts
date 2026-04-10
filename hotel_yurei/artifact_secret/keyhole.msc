@@ -1,0 +1,8 @@
+@cooldown 10s
+@using hoyu_scripts
+@if search_holding.contains("legendary_artifact")
+    @bypass /tp {{player}} -13268 54 -9796 Theta
+@else
+    @player &eMMmmm. Round shaped, despite outwards appearance
+@fi
+# https://paste.minr.org/ixicubizov

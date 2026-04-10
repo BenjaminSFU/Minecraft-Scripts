@@ -1,0 +1,32 @@
+# PLACEMENT SCRIPT: # = parameters to specify
+
+@for Block i in flh_ss::get_placerange(Block(#lowerx#, #lowery#, #lowerz#, "#world#"), Block(#upperx#, #uppery#, #upperz#, "#world#"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} #world #script_url
+@done
+@define Block centre_block = Block(#centrex#, #centrey#, #centrez#, #world#)
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@define Int[] keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# GATE SCRIPT: # = parameters to specify
+
+@using hoyu_scripts
+@if gate_history.length() == 0
+        @var gate_history.append(#num#)
+@else
+        @var gate_history.reverse()
+        @if gate_history[0] != #num#
+                @var gate_history.reverse()
+                @var gate_history.append(#num#)
+        @else
+                @var gate_history.reverse()
+        @fi
+@fi

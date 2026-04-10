@@ -1,0 +1,17 @@
+@bypass /namespace define N700M_maptools
+@bypass /variable define N700M_maptools relative String working_block
+@bypass /function define N700M_maptools keep_closed(Block block)
+@bypass /variable define N700M_maptools relative String[] wb_csplit
+@bypass /variable define N700M_maptools relative String[] facing_esplit
+@bypass /variable define N700M_maptools relative String facing
+@bypass /variable define N700M_maptools relative Int x
+@bypass /variable define N700M_maptools relative Int y
+@bypass /variable define N700M_maptools relative Int z
+@bypass /variable define N700M_maptools relative String blocktype
+@bypass /variable define N700M_maptools relative Int flength
+@bypass /variable define N700M_maptools relative String half
+@bypass /variable define N700M_maptools relative String[] half_esplit
+@bypass /variable define N700M_maptools relative Int hlength
+@bypass /function define N700M_maptools keep_open(Block block)
+@bypass /s i f N700M_maptools keep_closed(Block block) https://paste.minr.org/obinewutat.pl
+@bypass /s i f N700M_maptools keep_open(Block block) https://paste.minr.org/umaqoxoheg.pl

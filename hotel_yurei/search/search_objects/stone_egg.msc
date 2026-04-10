@@ -1,0 +1,11 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("stone_egg") != true
+    @player &eYou gently pick up the stone egg. It's warm to the touch... better avoid thinking about what left it here.
+    @var search_holding.append("stone_egg")
+@else
+    @player &eYou're already holding the egg. No use in picking it up again.
+@fi
+@delay 10s
+
+# https://paste.minr.org/lusuvarewi

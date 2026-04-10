@@ -1,0 +1,6 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("#name#") != true
+    @var search_holding.append("#name#")
+@fi
+@delay 10s

@@ -1,0 +1,4 @@
+@using flh_ns
+@var tp_player(Block(-12418, 284, -9681, "Theta"), Block(-12460, 284, -9681, "Theta"))
+
+https://paste.minr.org/napakibaza.coffeescript

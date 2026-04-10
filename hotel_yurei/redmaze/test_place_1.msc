@@ -1,0 +1,88 @@
+@player Starting Script
+
+# Gate 0
+
+@for Block i in flh_ss::get_placerange(Block(2972, 68, 6942, "Zero"), Block(2974, 71, 6942, "Zero"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/zixifuwico.coffeescript
+@done
+@define Block centre_block = Block(2973, 68, 6942, "Zero")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+	@var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@define Int[] keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 1
+
+@for Block i in flh_ss::get_placerange(Block(2972, 68, 6936, "Zero"), Block(2974, 71, 6936, "Zero"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/edonutitom.pl
+@done
+@var centre_block = Block(2973, 68, 6936, "Zero")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 2
+
+@for Block i in flh_ss::get_placerange(Block(2972, 68, 6930, "Zero"), Block(2974, 71, 6930, "Zero"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/ducoviwamo.pl
+@done
+@var centre_block = Block(2973, 68, 6930, "Zero")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Gate 3
+
+@for Block i in flh_ss::get_placerange(Block(2972, 68, 6924, "Zero"), Block(2974, 71, 6924, "Zero"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/ejizazamit.pl
+@done
+@var centre_block = Block(2973, 68, 6924, "Zero")
+@using hoyu_scripts
+@if placed_gates.length() == 0
+        @var placed_gates.append(centre_block)
+@elseif placed_gates.contains(centre_block) == false
+        @var placed_gates.append(centre_block)
+@fi
+@var keytemp = Int[]
+@for Int i in list::range(0, placed_gates.length())
+        @var keytemp.append(i)
+@done
+@var redmaze_key = keytemp
+
+# Wrong Gate
+
+@for Block i in flh_ss::get_placerange(Block(2970, 68, 6934, "Zero"), Block(2970, 71, 6932, "Zero"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/arutogopix.coffeescript
+@done
+
+# Final Gate
+
+@for Block i in flh_ss::get_placerange(Block(2972, 68, 6918, "Zero"), Block(2974, 71, 6918, "Zero"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/mavaqokopu.rb
+@done
+@player Finished placing scripts
+
+# https://paste.minr.org/kebadosomi

@@ -1,0 +1,11 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("heavy_core") != true
+    @player &eYou scoop up the heavy core... Yup, it's definitely heavy.
+    @var search_holding.append("heavy_core")
+@else
+    @player &eThere's no way you could hold two. Why bother trying?
+@fi
+@delay 10s
+
+# https://paste.minr.org/cudebajowi

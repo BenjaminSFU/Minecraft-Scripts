@@ -1,0 +1,4 @@
+@using flh_ns
+@var tp_player(Block(-12412, 284, -9822, "Theta"), Block(-12502, 284, -9708, "Theta"))
+
+https://paste.minr.org/dedugoludo.coffeescript

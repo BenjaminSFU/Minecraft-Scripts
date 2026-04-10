@@ -1,0 +1,4 @@
+@delay 3s
+@var N700M_maptools::keep_closed(block)
+
+https://paste.minr.org/lonecibovi.rb

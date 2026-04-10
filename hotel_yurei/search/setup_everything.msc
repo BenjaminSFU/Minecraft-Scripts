@@ -1,0 +1,38 @@
+# Setting up variables
+@bypass /var define hoyu_scripts relative String[] search_holding = String[]
+@bypass /var define hoyu_scripts relative Boolean found_heavy_core = false
+@bypass /var define hoyu_scripts relative Boolean found_coffin_sculpture = false
+@bypass /var define hoyu_scripts relative Boolean found_black_sack = false
+@bypass /var define hoyu_scripts relative Boolean found_stone_egg = false
+@bypass /var define hoyu_scripts relative Boolean found_golden_frog = false
+@bypass /var define hoyu_scripts relative Boolean talked_to_receptionist = false
+@bypass /var define hoyu_scripts relative Boolean read_gate_message = false
+# Placing search object scripts
+@bypass /s i i -13335 56 -9861 Theta https://paste.minr.org/xolijunife
+@bypass /s i e e899c8e8-47a9-4e75-ac82-7a8fc464f2b3 https://paste.minr.org/ilenolamuw
+@bypass /s i i -13275 69 -9861 Theta https://paste.minr.org/totebunidu
+@bypass /s i i -13310 59 -9810 Theta https://paste.minr.org/cudebajowi
+@bypass /s i e ca81f6ef-140b-4be3-8327-1c0a106b744b https://paste.minr.org/lusuvarewi
+# Receptionist
+@bypass /s i e abe48153-7d75-4831-9cb3-aa5df2e69bef https://paste.minr.org/uparivufij
+# Respawn script
+@bypass /s i w -13396 62 -9851 Theta https://paste.minr.org/avisopetum
+# Placing gate scritps
+@using flh_ss
+# Gate messages
+@for Block i in get_placerange(Block(-13265, 111, -9818, "Theta"), Block(-13263, 111, -9818, "Theta"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/tohihakope
+@done
+@for Block i in get_placerange(Block(-13265, 111, -9827, "Theta"), Block(-13263, 111, -9827, "Theta"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/tohihakope
+@done
+# Gate teleports
+@for Block i in get_placerange(Block(-13265, 111, -9824, "Theta"), Block(-13263, 111, -9824, "Theta"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/uverajuziy
+@done
+@for Block i in get_placerange(Block(-13265, 111, -9821, "Theta"), Block(-13263, 111, -9821, "Theta"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/icicaqefod
+@done
+# Legendary Artifact
+@bypass /s i e 88af0207-0b4f-4f1d-881d-590f90654062 https://paste.minr.org/toziwasene
+# https://paste.minr.org/eqawogalej

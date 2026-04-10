@@ -1,0 +1,7 @@
+@bypass /var define hoyu_scripts Int[] redmaze_key
+@bypass /var define hoyu_scripts relative Int[] gate_history
+@bypass /var define hoyu_scripts Block[] placed_gates
+@bypass /function define hoyu_scripts place_gates()
+@bypass /function define hoyu_scripts place_gates_2()
+
+# https://paste.minr.org/hozocisidu

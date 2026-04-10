@@ -1,0 +1,5 @@
+@for Block i in flh_ss::get_placerange(Block(-13326, 78, -9846, "Theta"), Block(-13326, 80, -9841, "Theta"))
+        @bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/qakahasele
+@done
+
+# https://paste.minr.org/uwewixupuc

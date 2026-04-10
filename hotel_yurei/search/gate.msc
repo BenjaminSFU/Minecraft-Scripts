@@ -1,0 +1,12 @@
+@using hoyu_scripts
+@if read_gate_message == false
+    @if player.countItem("TRIAL_KEY") == 0
+        @player &eYou have a feeling that the gate before you won't yield without the proper key...
+    @elseif player.countItem("TRIAL_KEY") > 0
+        @player &eA feeling of certainty washes over you. The gate will let you pass.
+    @fi
+    @var read_gate_message = true
+    @delay 15s
+    @var read_gate_message = false
+@fi
+# https://paste.minr.org/tohihakope

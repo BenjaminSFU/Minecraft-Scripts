@@ -1,0 +1,25 @@
+
+# Forwards
+
+@for Block i in flh_ss::get_placerange(Block(2986, 69, 6928, "Zero"), Block(2988, 69, 6928, "Zero"))
+#    @bypass /s r w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/aroguniruk
+@done
+
+# Backwards
+
+@for Block i in flh_ss::get_placerange(Block(2986, 69, 6925, "Zero"), Block(2988, 69, 6925, "Zero"))
+#    @bypass /s r w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/ucuhozesos
+@done
+
+# Messages
+
+@for Block i in flh_ss::get_placerange(Block(2986, 69, 6930, "Zero"), Block(2988, 69, 6930, "Zero"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/susinevove
+@done
+
+@for Block i in flh_ss::get_placerange(Block(2986, 69, 6923, "Zero"), Block(2988, 69, 6923, "Zero"))
+    @bypass /s i w {{i.getX()}} {{i.getY()}} {{i.getZ()}} Zero https://paste.minr.org/susinevove
+@done
+# https://paste.minr.org/cuvagozawa

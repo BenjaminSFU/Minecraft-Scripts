@@ -1,0 +1,50 @@
+@cooldown 30s
+@using hoyu_scripts
+@fast
+@if dialogue_num == 0
+    @slow
+    @player &#f7d80a&l...Hmm? I'm sorry but, I'm kind of working on something right now. I can't really talk much.
+    @delay 5s
+    @player &#f7d80a&lOkay sure, I'll take a break. Just give me a minute to finish this last bit.
+@elseif dialogue_num == 1
+    @slow
+    @player &#f7d80a&lI'm pretty sure that kids invented paperwork to punish adults for being old.
+    @delay 4s
+    @player &#f7d80a&lYeah, I know thats probably not the case. Like, definitely not. But hey, sometimes bureaucracy feels like a punishment inflicted intentionally.
+    @delay 7s
+    @player &#f7d80a&lYup, nothing worse than playing by someone elses rules. Especially when they won't give you all the details.
+@elseif dialogue_num == 2
+    @slow
+    @player &#f7d80a&lSo uh... Watch any good shows recently?
+    @delay 5s
+    @player &#f7d80a&l*Cough*....hrm. Yeah sorry, guess this isn't great for equal communication.
+    @delay 7s
+    @player &#f7d80a&lJust wanted to let you know somehow that I care about you. Y'know, you guys are the whole reason I did this, right?
+    @delay 6s
+    @player &#f7d80a&lYeah okay whatever, it's totally corny I get it. But hey, you played enough to get here and that means something. To me at least.
+    @delay 8s
+    @player &#f7d80a&lCan't lose 6 months of your life to something, and not get at least a LITTLE invested.
+@elseif dialogue_num == 3
+    @slow
+    @player &#f7d80a&lMan... I should totally be studying right now.
+    @delay 6s
+    @player &#f7d80a&lFeels unreal how much effort it is. School, I mean. Sucks the life right out of you, even if you like the subject.
+    @delay 7s
+    @player &#f7d80a&lGuess it makes sense, can't really expect something as big as a degree without giving something substantial up. I just hope that it's all worth it.
+@elseif dialogue_num == 4
+    @slow
+    @player &#f7d80a&lCan't wait to have money one day. It might seem shallow, but I've been cutting it close for the last couple years. I deserve a break!
+    @delay 6s
+    @player &#f7d80a&lHonestly, I'd just love to be able to buy a meal without feeling guilty about it. Or buy clothes. MAN I need some wardrobe changes.
+    @delay 7s
+    @player &#f7d80a&lHope that whatever part of your life that you're in, you can afford to live alright. Its rough out there!
+@elseif dialogue_num == 5
+    @slow
+    @player &#f7d80a&lHuhh... sorry. It's late and I'm tuckered out. I'm gonna hit the sack right here if you don't mind.
+@elseif dialogue_num == 6
+    @player &e...Light breathing. Asleep, looks like.
+@fi
+@if dialogue_num < 6
+    @var dialogue_num += 1
+@fi
+# https://paste.minr.org/noberuvadi

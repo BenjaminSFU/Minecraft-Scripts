@@ -1,0 +1,8 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("golden_frog") != true
+    @var search_holding.append("golden_frog")
+@fi
+@delay 10s
+
+# https://paste.minr.org/zijikesedo

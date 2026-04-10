@@ -1,0 +1,21 @@
+@using hoyu_scripts
+@fast
+@define Boolean[] comp_list = Boolean[]
+@if gate_history.length() != redmaze_key.length()
+	@return
+@fi
+@for Int i in list::range(0, redmaze_key.length())
+	@if gate_history[i] == redmaze_key[i]
+		@var comp_list.append(true)
+	@else
+		@var comp_list.append(false)
+	@fi
+@done
+@if comp_list.contains(false) == true
+	@return
+@else	
+	@var flh_ns::tp_player(Block(2973, 68, 6918, "Theta"), Block(2973, 79, 6918, "Theta"))
+	@var gate_history.clear()
+@fi
+
+# https://paste.minr.org/xohicohefi

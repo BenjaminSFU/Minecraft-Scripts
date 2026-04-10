@@ -1,0 +1,4 @@
+@using flh_ns
+@var tp_player(Block(-12466, 284, -9681, "Theta"), Block(-12424, 284, -9681, "Theta"))
+
+https://paste.minr.org/ofikejipaw.coffeescript

@@ -1,0 +1,9 @@
+@bypass /var define hoyu_scripts relative String[] search_holding = String[]
+@bypass /var define hoyu_scripts relative Boolean found_heavy_core = false
+@bypass /var define hoyu_scripts relative Boolean found_coffin_sculpture = false
+@bypass /var define hoyu_scripts relative Boolean found_black_sack = false
+@bypass /var define hoyu_scripts relative Boolean found_stone_egg = false
+@bypass /var define hoyu_scripts relative Boolean found_golden_frog = false
+@bypass /var define hoyu_scripts relative Boolean talked_to_receptionist = false
+@bypass /var define hoyu_scripts relative Boolean read_gate_message = false
+# https://paste.minr.org/zigecevepi

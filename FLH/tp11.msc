@@ -1,0 +1,4 @@
+@using flh_ns
+@var tp_player(Block(-12502, 284, -9702, "Theta"), Block(-12412, 284, -9816, "Theta"))
+
+https://paste.minr.org/itoreceget.coffeescript

@@ -1,0 +1,6 @@
+//sel1 -13427 -64 -9939
+//sel2 -13202 319 -9754
+//generate barrier if(abs(x!=1)&&abs(y!=1)&&abs(z!=1))return 0;query(x, y, z, 0, 0)
+//gmask water
+//generate barrier[waterlogged=true] if(abs(x!)=1&&abs(y!=1)&&abs(z!=1))return 0;1
+//gmask

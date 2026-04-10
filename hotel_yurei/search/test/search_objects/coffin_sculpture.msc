@@ -1,0 +1,8 @@
+@fast
+@using hoyu_scripts
+@if search_holding.contains("coffin_sculpture") != true
+    @var search_holding.append("coffin_sculpture")
+@fi
+@delay 10s
+
+# https://paste.minr.org/elowemawit

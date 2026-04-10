@@ -1,0 +1,4 @@
+@var flh_ns::player = player
+@var hoyu_scripts::gate_history = Int[]
+
+# https://paste.minr.org/qakahasele

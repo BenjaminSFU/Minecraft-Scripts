@@ -1,0 +1,13 @@
+@using hoyu_scripts
+@fast
+@if gate_history.length() == 0
+        @var gate_history.append(#num#)
+@else
+        @var gate_history.reverse()
+        @if gate_history[0] != #num#
+                @var gate_history.reverse()
+                @var gate_history.append(#num#)
+        @else
+                @var gate_history.reverse()
+        @fi
+@fi

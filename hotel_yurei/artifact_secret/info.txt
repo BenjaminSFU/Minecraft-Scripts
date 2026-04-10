@@ -1,0 +1,5 @@
+Legendary artifact UUID: 88af0207-0b4f-4f1d-881d-590f90654062
+Dog Depositer: -13260 112 -9813 Theta
+Keyhole: -13265 55 -9797 Theta
+N700M UUID: 072762d9-d226-4c74-9864-f4a420c0e6b6
+tp dest: -13268 54 -9796 Theta
