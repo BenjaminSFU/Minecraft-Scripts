@@ -1,0 +1,11 @@
+@using flh_ns
+@fast
+@var offsetx = endblock.getX() - startblock.getX()
+@var offsety = endblock.getY() - startblock.getY()
+@var offsetz = endblock.getZ() - startblock.getZ()
+@define Float pitch = player.getPitch()
+@define Float yaw = player.getYaw()
+@var yaw += Float(180)
+@bypass /minecraft:tp {{player}} ~{{offsetx}} ~{{offsety}} ~{{offsetz}} {{yaw}} {{pitch}}
+
+# https://paste.minr.org/qosawusiqo

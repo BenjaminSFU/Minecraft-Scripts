@@ -7,4 +7,4 @@
 	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/oratuzufof.coffeescript
 @done
 
-https://paste.minr.org/alegedujab.coffeescript
+# https://paste.minr.org/alegedujab.coffeescript
