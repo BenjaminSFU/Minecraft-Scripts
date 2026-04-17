@@ -1,15 +1,15 @@
-@bypass /function define flh_ss Int absval(Int num)
-@bypass /s i f flh_ss absval(Int num) https://paste.minr.org/ipovexicup.coffeescript
+@command /function define flh_ss Int absval(Int num)
+@command /s i f flh_ss absval(Int num) https://paste.minr.org/ipovexicup.coffeescript
 @using flh_ss
 @player Starting Script
 @for Block i in get_placerange(Block(-12382, 284, -9681, "Theta"), Block(-12382, 292, -9684, "Theta"))
-	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/wufurayiji.coffeescript
+	@command /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/wufurayiji.coffeescript
 @done
 @for Block i in get_placerange(Block(-12334, 284, -9681, "Theta"), Block(-12334, 292, -9684, "Theta"))
-	@bypass /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/rumezimahe.coffeescript
+	@command /script import walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta https://paste.minr.org/rumezimahe.coffeescript
 @done
-@bypass /s i w -12358 284 -9677 Theta https://paste.minr.org/apewacisip.php
-@bypass /s i w -12358 285 -9677 Theta https://paste.minr.org/apewacisip.php
-@bypass /s i w -12358 286 -9677 Theta https://paste.minr.org/apewacisip.php
+@command /s i w -12358 284 -9677 Theta https://paste.minr.org/apewacisip.php
+@command /s i w -12358 285 -9677 Theta https://paste.minr.org/apewacisip.php
+@command /s i w -12358 286 -9677 Theta https://paste.minr.org/apewacisip.php
 
 # https://paste.minr.org/upenovosig.coffeescript

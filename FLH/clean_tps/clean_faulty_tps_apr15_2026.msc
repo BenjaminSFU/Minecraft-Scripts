@@ -1,0 +1,52 @@
+@using flh_ss
+@player Starting Script
+
+# 8
+
+@for Block i in get_placerange(Block(-12301, 284, -9816, "Theta"), Block(-12304, 292, -9816, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 9
+
+@for Block i in get_placerange(Block(-12526, 284, -9762, "Theta"), Block(-12529, 292, -9762, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 10
+
+@for Block i in get_placerange(Block(-12412, 284, -9822, "Theta"), Block(-12415, 292, -9822, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 11
+
+@for Block i in get_placerange(Block(-12502, 284, -9702, "Theta"), Block(-12505, 292, -9702, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 13
+
+@for Block i in get_placerange(Block(-12289, 284, -9708, "Theta"), Block(-12292, 292, -9708, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 12
+
+@for Block i in get_placerange(Block(-12514, 284, -9804, "Theta"), Block(-12517, 292, -9804, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 15
+
+@for Block i in get_placerange(Block(-12283, 284, -9834, "Theta"), Block(-12283, 292, -9837, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# 16
+
+@for Block i in get_placerange(Block(-12541, 284, -9702, "Theta"), Block(-12541, 292, -9705, "Theta"))
+   @command /script remove walk {{i.getX()}} {{i.getY()}} {{i.getZ()}} Theta
+@done
+
+# https://paste.minr.org/ejikaxazaz
